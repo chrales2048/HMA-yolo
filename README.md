@@ -38,5 +38,5 @@ HMA-YOLO/
 This repository is directly associated with the manuscript submitted to The Visual Computer.
 
 ## 🙏Acknowledgements
-https://github.com/WongKinYiu/yolov7
+https://github.com/WongKinYiu/yolov9
 
