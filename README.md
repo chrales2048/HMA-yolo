@@ -32,7 +32,10 @@ HMA-YOLO/
   journal = {The Visual Computer},
   year    = {2025}
 }
+----
  ##🔗 Related Information
 This repository is directly associated with the manuscript submitted to The Visual Computer.
+-----
 ##🙏Acknowledgements
 https://github.com/WongKinYiu/yolov7
+-----
