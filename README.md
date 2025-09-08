@@ -12,24 +12,27 @@ Key innovations include:
 - **Adaptive Frequency Decomposition Module (AFDM)**: Improved boundary-aware feature fusion  
 - **Ghost-InceptionV2 (GI Conv)**: Efficient convolution with reduced redundancy  
 
-The architecture balances **high accuracy** with **real-time performance**, achieving high FPS with significant accuracy improvements.
+The proposed architecture achieves a balanced trade-off between **accuracy** and **real-time performance**, showing significant improvements in gangue detection tasks
 ---
 ## ⚙️ Repository Structure
 HMA-YOLO/
 │-- models/          # Core modules
-│-- requirements.txt # Dependencies
-│-- subbranch_removal.py         # 
-│-- train.py          # Minimal demo script
-│-- val.py          # Minimal demo script
-│-- detect.py          # Minimal demo script
+│-- requirements.txt # List of dependencies for environment setup
+│-- yolov9-s-converted.pt         #  YOLOv9 weight file
+│-- subbranch_removal.py         # Utility script for pruning/removing redundant branches (structural simplification)
+│-- train.py          # Training script
+│-- val.py          # Validation script
+│-- detect.py          # Inference demo script 
 │-- README.md        # Project documentation
  ## 📖 Citation
  If you find this work useful, please cite our manuscript:
  @article{Peng2025HMA-YOLO,
   title   = {Enhanceing Gangue Recognition in Coal Mines：A Lightweight Network with Multi-Path Attention},
-  author  = {Zheng Wang and Le Pengu and Yujiang Liu},
+  author  = {Zheng Wang and Le Peng and Yujiang Liu},
   journal = {The Visual Computer},
   year    = {2025}
 }
-🔗 Related Information
+ ##🔗 Related Information
 This repository is directly associated with the manuscript submitted to The Visual Computer.
+##🙏Acknowledgements
+https://github.com/WongKinYiu/yolov7
