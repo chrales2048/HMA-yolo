@@ -13,7 +13,7 @@ Key innovations include:
 - **Ghost-InceptionV2 (GI Conv)**: Efficient convolution with reduced redundancy  
 
 The proposed architecture achieves a balanced trade-off between **accuracy** and **real-time performance**, showing significant improvements in gangue detection tasks
----
+
 ## ⚙️ Repository Structure
 HMA-YOLO/
 │-- models/          # Core modules
@@ -28,15 +28,15 @@ HMA-YOLO/
  ## 📖 Citation
  If you find this work useful, please cite our manuscript:
  @article{Peng2025HMA-YOLO,
-  title   = {Enhanceing Gangue Recognition in Coal Mines：A Lightweight Network with Multi-Path Attention},
+  title   = {Enhancing Gangue Recognition in Coal Mines：A Lightweight Network with Multi-Path Attention},
   author  = {Zheng Wang and Le Peng and Yujiang Liu},
   journal = {The Visual Computer},
   year    = {2025}
 }
 
- ##🔗 Related Information
+ ## 🔗 Related Information
 This repository is directly associated with the manuscript submitted to The Visual Computer.
 
-##🙏Acknowledgements
+## 🙏Acknowledgements
 https://github.com/WongKinYiu/yolov7
 
