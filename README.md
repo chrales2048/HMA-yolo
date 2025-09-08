@@ -16,6 +16,7 @@ The proposed architecture achieves a balanced trade-off between **accuracy** and
 
 ## ⚙️ Repository Structure
 HMA-YOLO/
+│-- data/          #  Example subset of dataset (partial release, full dataset will be uploaded after project completion)
 │-- models/          # Core modules
 │-- requirements.txt # List of dependencies for environment setup
 │-- yolov9-s-converted.pt         #  YOLOv9 weight file
@@ -25,6 +26,17 @@ HMA-YOLO/
 │-- detect.py          # Inference demo script 
 │-- README.md        # Project documentation
 
+---
+
+## 📂 Dataset Availability
+
+A **partial dataset** is included in the `data/` folder to demonstrate the usage of the provided scripts.  
+
+> ⚠️ **Note:**  
+> Due to confidentiality requirements and the fact that the project is still ongoing, the **full dataset cannot be released at this stage**.  
+> Upon completion of the project, the full dataset will be uploaded to this repository .  
+
+---
  ## 📖 Citation
  If you find this work useful, please cite our manuscript:
  @article{Peng2025HMA-YOLO,
