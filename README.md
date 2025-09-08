@@ -24,6 +24,7 @@ HMA-YOLO/
 │-- val.py          # Validation script
 │-- detect.py          # Inference demo script 
 │-- README.md        # Project documentation
+
  ## 📖 Citation
  If you find this work useful, please cite our manuscript:
  @article{Peng2025HMA-YOLO,
@@ -32,10 +33,10 @@ HMA-YOLO/
   journal = {The Visual Computer},
   year    = {2025}
 }
-----
+
  ##🔗 Related Information
 This repository is directly associated with the manuscript submitted to The Visual Computer.
------
+
 ##🙏Acknowledgements
 https://github.com/WongKinYiu/yolov7
------
+
