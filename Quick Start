@@ -57,4 +57,10 @@ python detect.py --weights yolov9-s-converted.pt --source screen --imgsz 640 --v
     At the end of inference, the log will show the output directory, e.g.:
 
     Results saved to runs/detect/exp
+### 6) NOTES
+
+    ⚠️ Only a partial dataset is included for demonstration.
+    The full dataset is currently confidential and will be released once the project is complete.
+    The provided training and validation scripts illustrate the pipeline, but results with the partial dataset will not reproduce the exact performance reported in the manuscript.
+    Replace data/custom.yaml with your own dataset configuration file if using a different dataset.
 
