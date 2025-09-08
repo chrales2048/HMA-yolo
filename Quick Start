@@ -1,0 +1,60 @@
+## 🚀 Quick Start (Inference)
+
+### 1) Environment setup
+```bash
+# (optional) create a virtual environment
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install --upgrade pip
+pip install -r requirements.txt
+### 2) Prepare weights and data
+
+    Baseline weights: yolov9-s-converted.pt (already included in this repository).
+    Example images: place sample images under data/images/ (a small subset is provided).
+
+### 3) Run detection
+a) Single image
+
+python detect.py \
+  --weights yolov9-s-converted.pt \
+  --source data/images/example.jpg \
+  --imgsz 640
+
+b) A folder of images
+
+python detect.py \
+  --weights yolov9-s-converted.pt \
+  --source data/images \
+  --imgsz 640
+
+c) Video file
+
+python detect.py \
+  --weights yolov9-s-converted.pt \
+  --source data/videos/sample.mp4 \
+  --imgsz 640
+
+d) Webcam / screen
+
+# webcam (0 for default camera)
+python detect.py --weights yolov9-s-converted.pt --source 0 --imgsz 640 --view-img
+
+# screen capture (see detect.py help for details)
+python detect.py --weights yolov9-s-converted.pt --source screen --imgsz 640 --view-img
+
+### 4) Common options
+
+    --device 0 to use GPU 0; --device cpu for CPU inference.
+    --half enables FP16 inference on supported GPUs (do not use on CPU).
+    --conf-thres 0.25 confidence threshold; --iou-thres 0.45 NMS threshold.
+    --classes 0 1 detect only the specified classes (by dataset index).
+    --view-img displays results in a window (avoid on headless servers).
+    --save-txt saves YOLO-format labels; --save-crop saves cropped prediction boxes.
+
+### 5) Outputs
+
+    Results (images/videos with bounding boxes) are saved to: runs/detect/exp*/
+    If --save-txt is enabled, labels are stored in: runs/detect/exp*/labels/
+    At the end of inference, the log will show the output directory, e.g.:
+
+    Results saved to runs/detect/exp
+
